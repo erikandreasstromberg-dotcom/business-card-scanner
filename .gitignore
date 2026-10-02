@@ -1,0 +1,37 @@
+# ─────────────────────────────────────────────
+# Secrets / local config — never commit
+# ─────────────────────────────────────────────
+*.env
+local.properties
+*.keystore
+*.jks
+secrets.properties
+
+# ─────────────────────────────────────────────
+# Android / Gradle
+# ─────────────────────────────────────────────
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+# Android Studio / IntelliJ
+.idea/
+*.iml
+.navigation/
+# Keep the Gradle wrapper jar (needed to build) but ignore the dist cache
+!gradle/wrapper/gradle-wrapper.jar
+
+# ─────────────────────────────────────────────
+# Editor / OS / tooling
+# ─────────────────────────────────────────────
+.claude/
+.DS_Store
+Thumbs.db
+*.log
+*.swp

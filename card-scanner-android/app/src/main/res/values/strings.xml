@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Card Scanner</string>
+    <string name="capture_title">Scan Business Card</string>
+    <string name="scan_button">Scan</string>
+    <string name="hold_card_sideways">Hold the card sideways to fill the frame</string>
+    <string name="send_button">Open in email app</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="save_button">Save</string>
+    <string name="delete_button">Delete</string>
+    <string name="reopen_in_email_app">Reopen in email app</string>
+    <string name="settings_title">Settings</string>
+    <string name="history_title">Previous Scans</string>
+    <string name="review_title">Review Contact</string>
+    <string name="template_editor_title">Edit Email Template</string>
+    <string name="confirmation_title">Draft opened</string>
+    <string name="email_opened">Draft opened in your email app</string>
+    <string name="email_handoff_hint">Review and hit Send in Outlook or Gmail — the draft is prefilled with the contact\'s address and your template.</string>
+    <string name="save_contact_button">Save contact</string>
+    <string name="open_linkedin">Open LinkedIn profile</string>
+    <string name="no_email_note_hint">No email address on this one — you can\'t send a follow-up, so add a note about where you met and what they do. That\'s what will jog your memory when the connection request arrives.</string>
+    <string name="contact_saved">Contact saved</string>
+    <string name="contact_saved_hint">Kept under Previous Scans with your note. Include it in an Export whenever you want it in your CRM.</string>
+    <string name="scan_next">Scan next</string>
+    <string name="view_history">View previous scans</string>
+    <string name="reset_to_default">Reset to default</string>
+    <string name="preview_with_empty_fields">Preview with empty fields</string>
+    <string name="context_placeholder">Optional note — only saved locally, never sent to the contact.</string>
+    <string name="low_confidence_warning">Some fields may be inaccurate — please review before sending.</string>
+    <string name="no_history">No scans yet</string>
+
+    <!-- Settings sections -->
+    <string name="section_template">Email Template</string>
+    <string name="edit_template">Edit subject and body</string>
+    <string name="template_hint">Tap Send in Review to open your email app with the message pre-populated. You send from there.</string>
+    <string name="section_email_app">Preferred email app</string>
+    <string name="email_app_ask_each_time">Ask each time</string>
+    <string name="email_app_none_installed">No email apps found on this device.</string>
+    <string name="email_app_hint">Pick one to skip the chooser. \"Ask each time\" shows every installed handler (Outlook, Gmail, and any other app that accepts email drafts).</string>
+
+    <!-- Export -->
+    <string name="export_button">Export</string>
+    <string name="export_select_prompt">Select scans to export</string>
+    <string name="export_count">Export %1$d selected</string>
+    <string name="export_hint">Tick the scans you want, then Export to email yourself a CSV for your CRM.</string>
+
+    <!-- My card -->
+    <string name="section_my_card">My card</string>
+    <string name="section_my_card_hint">Your own details, to show someone when you don\'t have a paper card on you.</string>
+    <string name="my_card_title">My card</string>
+    <string name="my_card_intro">Fill this in once. The card icon on the camera screen then shows your details as a QR code that any phone camera can read.</string>
+    <string name="my_card_details">My details</string>
+    <string name="my_card_qr">My QR code</string>
+    <string name="my_card_qr_hint">Anyone can point their normal camera at this and save you as a contact — they don\'t need this app.</string>
+    <string name="my_card_qr_empty">Add at least a name or an email address to generate your QR code.</string>
+    <string name="my_card_image">Card photo</string>
+    <string name="my_card_image_hint">Optional. Add a photo of your printed card, or a screenshot of your LinkedIn QR code, and it will be shown alongside your QR.</string>
+    <string name="my_card_choose">Choose image</string>
+    <string name="my_card_photo">Take photo</string>
+    <string name="my_card_remove">Remove image</string>
+
+    <!-- Share card -->
+    <string name="share_card_title">My card</string>
+    <string name="share_card_hint">Hold this up and let them scan it with their camera.</string>
+    <string name="share_card_empty">You haven\'t set up your card yet.</string>
+    <string name="share_card_setup">Set up my card</string>
+
+    <!-- Help -->
+    <string name="help_title">How this app works</string>
+    <string name="help_about_title">About</string>
+    <string name="help_about_body">Card Scanner turns a business card into a ready-to-send follow-up email. Point the camera at a card, check what it read, and your own email app opens with the message already written — so a contact you meet once doesn\'t get lost in a pocket.</string>
+
+    <string name="help_how_title">How it works</string>
+    <string name="help_step_scan">Hold the card sideways inside the frame and tap Scan. The camera reads the text on the card.</string>
+    <string name="help_step_review">Check the fields it picked up. Anything the camera misread, you can correct here — nothing is sent until you say so.</string>
+    <string name="help_step_send">Tap “Open in email app”. Outlook, Gmail or whichever app you prefer opens with the address and your message already filled in. You press Send.</string>
+    <string name="help_step_history">Every scan is kept under Previous Scans, so you still have the details even if the email is lost. You can reopen the draft or delete the scan.</string>
+    <string name="help_step_export">Tick scans under Previous Scans and tap Export to email yourself a CSV file you can import into your CRM.</string>
+
+    <string name="help_template_title">Your message template</string>
+    <string name="help_template_body">Settings → Email Template is the message that gets written for you. These placeholders are replaced with details from the card:</string>
+    <string name="help_ph_first_name">First name only</string>
+    <string name="help_ph_name">Full name</string>
+    <string name="help_ph_role">Job title</string>
+    <string name="help_ph_company">Company name</string>
+
+    <string name="help_privacy_title">Your data stays on this device</string>
+    <string name="help_privacy_offline">The app has no internet permission at all. It cannot send your scans anywhere, even by accident.</string>
+    <string name="help_privacy_ocr">Reading the card happens on the phone itself. No photo is uploaded to any service.</string>
+    <string name="help_privacy_storage">Scans live in a private database only this app can open. Your template is kept in encrypted storage.</string>
+    <string name="help_privacy_email">The app never sends email. It hands a draft to your own email app, and you decide whether to send it.</string>
+    <string name="help_privacy_delete">Deleting a scan removes its details and its photo from the device.</string>
+
+    <string name="help_footer">No account, no sign-in, no server.\n\nQuestions or feedback: houseofsilver.ai</string>
+
+    <!-- Image viewer -->
+    <string name="view_card_image">View card image</string>
+    <string name="close">Close</string>
+
+    <!-- Delete-scan dialog -->
+    <string name="delete_scan_title">Delete this scan?</string>
+    <string name="delete_scan_message">The scan and its image will be removed from this device. The email in your Sent folder isn\'t affected.</string>
+</resources>

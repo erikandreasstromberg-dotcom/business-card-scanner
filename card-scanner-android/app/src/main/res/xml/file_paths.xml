@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- CSV exports handed to the user's email app as an attachment -->
+    <files-path
+        name="exports"
+        path="exports/" />
+    <!-- Destination for a photo of the user's own business card -->
+    <files-path
+        name="mycard"
+        path="mycard/" />
+</paths>

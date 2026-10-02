@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- House of Silver — placeholder launcher foreground: sage green circle -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="#7DBE73"/>
+    <size android:width="108dp" android:height="108dp"/>
+</shape>
